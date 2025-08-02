@@ -42,5 +42,5 @@ ShadowRecon is built strictly for **authorized testing** and **educational resea
 
 > “**Automated, professional reconnaissance and vulnerability assessment—become the shadow that finds what others can’t.**”
 
----
+---f
 
