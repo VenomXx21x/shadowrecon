@@ -6,9 +6,6 @@
 
 ---
 
-<img width="970" height="516" alt="image" src="https://github.com/user-attachments/assets/442e5a4f-e89e-40c3-8a44-1c792061203b" />
-<img width="1351" height="762" alt="image" src="https://github.com/user-attachments/assets/c3377697-1362-4f14-857b-113578605a40" />
-
 
 _**Like ShadowRecon? Consider supporting the developer:**_
 
@@ -16,6 +13,9 @@ _**Like ShadowRecon? Consider supporting the developer:**_
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Donate-red?style=flat-square)](https://ko-fi.com/yourusername)
 
 ---
+
+<img width="970" height="516" alt="image" src="https://github.com/user-attachments/assets/442e5a4f-e89e-40c3-8a44-1c792061203b" />
+<img width="1351" height="762" alt="image" src="https://github.com/user-attachments/assets/c3377697-1362-4f14-857b-113578605a40" />
 
 # 🕵️ ShadowRecon
 
