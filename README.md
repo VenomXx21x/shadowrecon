@@ -1,51 +1,161 @@
 ![release](https://img.shields.io/badge/release-v1.0.0-blue.svg)
-![stars](https://img.shields.io/github/stars/yourusername/shadowrecon?style=social)
-![forks](https://img.shields.io/github/forks/yourusername/shadowrecon?style=social)
-![issues](https://img.shields.io/github/issues/yourusername/shadowrecon)
+![stars](https://img.shields.io/github/stars/CyberWarLab/shadowrecon?style=social)
+![forks](https://img.shields.io/github/forks/CyberWarLab/shadowrecon?style=social)
+![issues](https://img.shields.io/github/issues/CyberWarLab/shadowrecon)
 ![license](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
 
+<img width="970" height="516" alt="image" src="https://github.com/user-attachments/assets/442e5a4f-e89e-40c3-8a44-1c792061203b" />
+<img width="1351" height="762" alt="image" src="https://github.com/user-attachments/assets/c3377697-1362-4f14-857b-113578605a40" />
 
-<img width="1145" height="600" alt="image" src="https://github.com/user-attachments/assets/44b01838-00da-49f1-b778-7e0f24dc9f66" />
-<img width="665" height="260" alt="image" src="https://github.com/user-attachments/assets/d203e4d7-1035-4cd1-a089-601af7b908cc" />
 
+_**Like ShadowRecon? Consider supporting the developer:**_
 
-_**Like ShadowRecon? Consider supporting the project:**_
-
-[![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-%E2%98%95-yellow?style=flat-square)](https://www.buymeacoffee.com/yourusername)
-[![Ko-Fi](https://img.shields.io/badge/ko--fi-donate-red?style=flat-square)](https://ko-fi.com/yourusername)
-
----
-
-# ShadowRecon
-
-**ShadowRecon** is a comprehensive, professional-grade web and network security assessment framework designed for penetration testers, bug bounty hunters, and cybersecurity researchers.
-
-Written in Python, it combines automated and advanced modules for discovering and reporting vulnerabilities across web apps, networks, APIs, and infrastructure.
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow?style=flat-square)](https://www.buymeacoffee.com/yourusername)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Donate-red?style=flat-square)](https://ko-fi.com/yourusername)
 
 ---
 
-### ✨ Key Features
+# 🕵️ ShadowRecon
 
-- **Advanced Reconnaissance**: DNS, WHOIS, subdomain enumeration, GeoIP, admin panel finder, security header checks, phishing detection.
-- **Web Vulnerability Scanning**: Automated tests for XSS, SQL Injection, SSRF, LFI, XXE, RCE, and CORS misconfigurations.
-- **Network Security Assessment**: Fast port scans (multi-threaded), service & version detection, OS fingerprinting, and CVE-based vulnerability detection.
-- **WAF & SSL/TLS Analysis**: Detects common web firewalls and weak SSL/TLS configurations.
-- **OSINT Modules**: Email harvesting, social media exposure checks, and intelligence gathering.
-- **Reverse Shell Generator**: Multi-language payloads and integrated Netcat listener.
-- **Report Generation**: Export findings as HTML, JSON, or TXT and store in local SQLite.
-- **Interactive Menus**: Colorized CLI for ease of use, even in complex assessments.
+**ShadowRecon** is a comprehensive, professional-grade web and network security assessment framework built for penetration testers, bug bounty hunters, and cybersecurity researchers.
+
+Developed by **CyberWarLab**, ShadowRecon combines advanced reconnaissance, automated vulnerability discovery, OSINT, and reporting in one powerful Python CLI toolkit.
 
 ---
 
-### ⚠️ Intended Use
+## 🧰 Installation (with Virtual Environment)
 
-ShadowRecon is built strictly for **authorized testing** and **educational research**. Ensure you have explicit permission before scanning or attacking any systems.
+> ⚠️ It's strongly recommended to run ShadowRecon in an isolated Python virtual environment.
 
----
+### ✅ Prerequisites
 
-> “**Automated, professional reconnaissance and vulnerability assessment—become the shadow that finds what others can’t.**”
+- Python 3.8+
+- `git`, `pip3`
 
----fs
+### 📥 Clone & Install
 
+```bash
+# Clone the repository
+git clone https://github.com/CyberWarLab/shadowrecon.git
+cd shadowrecon
+
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # for Linux/macOS
+# venv\Scripts\activate    # for Windows (PowerShell)
+
+# Install all dependencies
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+
+# Run the tool
+python3 shadowrecon.py
+
+
+🚀 Features
+🔎 Reconnaissance
+DNS & WHOIS lookup
+
+Subdomain enumeration
+
+GeoIP location tracking
+
+WAF detection
+
+Security headers inspection
+
+Admin panel finder
+
+Phishing indicator scanning
+
+🌐 Web Vulnerability Scanning
+Detects XSS, SQLi, LFI, RCE, SSRF, CORS misconfig
+
+GET, POST, and JSON payload support
+
+Basic fuzzing for API endpoints
+
+🧪 Network Security Assessment
+Fast multithreaded port scanner
+
+OS fingerprinting (via nmap)
+
+Service detection
+
+Vulnerability matching via built-in CVE database
+
+🔍 OSINT Toolkit
+Email harvesting via passive sources
+
+Social media exposure lookup
+
+Search engine scraping
+
+🔐 SSL/TLS & WAF Analyzer
+Identifies weak SSL ciphers
+
+Detects common WAFs using headers, status codes, time-based fingerprinting
+
+💣 Reverse Shell Generator
+Payloads in Bash, Python, Perl, PHP, Ruby, Java, Netcat
+
+Netcat listener + interactive PTY shell support
+
+📊 (Coming Soon) Reporting System
+Export scan results in HTML, JSON, or TXT
+
+SQLite storage for session tracking
+
+🧪 Usage Example
+source venv/bin/activate
+python3 shadowrecon.py
+
+From the menu:
+
+markdown
+1. Advanced Reconnaissance Suite
+2. Automated Vulnerability Scanner
+3. Network Security Assessment
+4. OSINT Intelligence Gathering
+5. Phishing Detection Toolkit
+6. Security Headers & SSL Analyzer
+7. Admin Panel Finder
+8. GeoIP Locator
+9. Reverse Shell Generator
+10. Advanced Web Testing
+11. Exit
+
+
+Web Testing sub-menu:
+
+markdown
+1. Test for XSS Vulnerabilities
+2. Test for SQL Injection
+3. Test for SSRF Vulnerabilities
+4. Test for CORS Misconfigurations
+5. Test API Endpoints
+
+⚠️ Legal Disclaimer
+ShadowRecon is provided strictly for authorized penetration testing and educational research.
+Unauthorized scanning or exploitation of systems is illegal and unethical.
+
+You are solely responsible for compliance with all applicable laws.
+CyberWarLab assumes no liability for misuse or damage caused by this tool.
+
+👤 Author
+CyberWarLab
+GitHub: @CyberWarLab
+Ko-Fi: ko-fi.com/yourusername
+
+“One framework. Complete reconnaissance, vulnerability scanning, and reporting. Automate and accelerate your security assessment workflow.”
+
+⭐ Support the Project
+If you find ShadowRecon useful:
+
+⭐ Star the repository
+
+🍕 Buy me a coffee
+
+💬 Submit feedback or feature requests
